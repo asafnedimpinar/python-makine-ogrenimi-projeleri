@@ -14,7 +14,7 @@ nltk.download('stopwords')
 
 # Veriyi yükle
 data = pd.read_csv("C:/Users/ASAF/Desktop/Datasets/NLPlabeledData.tsv", sep='\t', quoting=3)
-df = data.copy()  # DataFrame kopyasını oluştur
+df = data.copy()  
 
 # İlk örneği kontrol et
 ex_text = data.review[0]
